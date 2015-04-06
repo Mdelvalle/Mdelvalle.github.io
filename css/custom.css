@@ -1,22 +1,18 @@
-@media (min-width: 550px) {
-  .one-fifth-column     { width: 18%; }
-  .four-fifths-column   { width: 78%; }
-}
 .navbar {
+  position: fixed;
   display: block;
+  top: 0;
+  left: 0;
+  z-index: 9999;
   height: 100%;
-  background: #fff;
-  z-index: 99;
-}
-.navbar > .container {
-  height: 100%;
+  width: 20%;
+  background-color: black;
+  text-align: center;
 }
 .navbar-list {
   list-style: none;
 }
 .navbar-item {
-  position: fixed;
-  float: left;
 }
 .navbar-link {
   text-transform: uppercase;
