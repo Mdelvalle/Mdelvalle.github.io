@@ -46,10 +46,9 @@
   top: 80%;
 }
 #github {
-  position: relative;
   width: 32px;
   height: 32px;
-  top: 50%;
+  margin-top: 50%;
 }
 .content {
   position: relative;
