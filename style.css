@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+  font-family: 'PT Sans', sans-serif; }
+
+a {
+text-decoration: none;
+  color: #364659; }
+
+section {
+display: flex;
+justify-content: center;
+align-items: center; }
+
+/* ===========================================================================
+   Custom
+   =========================================================================== */
+.heights {
+  height: 100vh; }
+
+#cover {
+  background-color: #d9e0e8; }
+  #cover h1 {
+    font-size: 25vw; }
+
+#about {
+  background-color: #ccd6e0;
+  transition: background-color 0.7s ease; }
+#about h1 {
+  font-size: 15vw; }
+  #about:hover {
+    background-color: #b9e5d7;
+    transition: background-color 0.7s ease; }
+
+#projects {
+  background-color: #c0cbd9;
+  transition: background-color 0.7s ease; }
+  #projects h1 {
+    font-size: 15vw; }
+  #projects:hover {
+    background-color: #69d3eb;
+    transition: background-color 0.7s ease; }
+
+#contact {
+  /* for any buttons: #f77161 */
+  background-color: #232d39;
+  color: #d9e0e8; }
+  #contact h1 {
+    position: relative;
+    font-size: 15vw; }
+
+footer {
+  background-color: #0f141a;
+  height: 3em; }
+  footer h1 {
+    position: relative;
+    top: 50%;
+    margin-left: 3%;
+    font-size: 0.25em;
+    color: rgba(255, 255, 255, 0.3); }
+  footer strong {
+    color: #f77161; }
