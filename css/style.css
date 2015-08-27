@@ -15,7 +15,7 @@ a {
 .cover h1 {
   text-align: center;
   color: #222;
-  font-size: 15rem; }
+  font-size: 9rem; }
 
 /*********************************************************
  * About
@@ -27,8 +27,8 @@ a {
   .about h1 {
     color: #fff;
     text-align: center;
-    font-size: 7rem;
-    padding: 3rem 7rem 0 7rem; }
+    font-size: 3rem;
+    padding: 1rem 3rem; }
 
 /*********************************************************
  * Projects
