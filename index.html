@@ -1,32 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Miguel Del Valle</title>
-    <meta name="description" content="Homepage of Ari: maker, hacker, designer, writer, marketer, developer, hype-creator, hedgehog.">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-  </head>
+<head>
 
-  <body>
-    <section id="cover" class="heights">
-      <h1>Miguel</h1>
-    </section>
+  <!-- Basic Page Needs
+    -------------------------------------------------------------------- -->
+  <meta charset="utf-8">
+  <title>Miguel Del Valle</title>
+  <meta name="author" content="Miguel Del Valle">
+  <meta name="description" content="Homepage of Miguel Del Valle">
+
+  <!-- Mobile Specific Metas
+    -------------------------------------------------------------------- -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+    -------------------------------------------------------------------- -->
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Knewave' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+    -------------------------------------------------------------------- -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- Favicon
+    -------------------------------------------------------------------- -->
+  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+
+</head>
+<body>
+
+  <!-- Cover
+    -------------------------------------------------------------------- -->
+  <div class="container cover">
+    <h1>HI, I'M MIGUEL.</h1>
+  </div>
+
+  <!-- About
+    -------------------------------------------------------------------- -->
+  <div class="container about">
+    <h1>RECENT <span style="color: #BF5700;">UT</span> COMPUTER SCIENCE GRAD INTERESTED
+          IN DATA VISUALIZATION, DISTRIBUTED SYSTEMS,
+          WEB, AND ANYTHING MUSIC.
+      </h1>
+  </div>
+
+  <!-- Projects
+    -------------------------------------------------------------------- -->
+  <div class="container projects">
+    <h1>PORTFOLIO</h1>
+    <p>some of the projects I've worked on</p>
     
-    <section id="about" class="heights">
-      <h1>ABOUT</h1>
-    </section>
+    <div class="row">
+      <div class="four columns">
+        <p>chop-n-screw</p>
+      </div>
+
+      <div class="four columns">
+        <p>secloop</p>
+      </div>
+
+      <div class="four columns">
+        <p>rekt</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact
+    -------------------------------------------------------------------- -->
+  <div class="container contact">
+    <h1>HIT ME UP<h1>
     
-    <section id="projects" class="heights">
-      <h1>PROJECTS</h1>
-    </section>
-    
-    <section id="contact" class="heights">
-      <h1>CONTACT</h1>
-    </section>
-    
-    <footer>
-      <h1>Made with <strong>&lt3</strong> by Miguel Del Valle</h1>
-    </footer>
-  </body>
+    <form>
+      <label for="emailInput">Your email</label>
+      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="emailInput">
+
+      <label for="message">Message</label>
+      <textarea class="u-full-width" placeholder="Hi Miguel…" id="message"></textarea>
+
+      <label class="send-yourself-copy">
+        <input type="checkbox">
+        <span class="label-body">Send a copy to yourself</span>
+      </label>
+
+      <input class="button-primary" type="submit" value="Submit">
+    </form>
+  </div>
+
+  <!-- Footer
+    -------------------------------------------------------------------- -->
+  <footer>
+    <h1>Made with <strong>&lt3</strong> by Miguel Del Valle</h1>
+  </footer>
+<!-- End Document
+  ------------------------------------------------------------------------ -->
+</body>
 </html>
