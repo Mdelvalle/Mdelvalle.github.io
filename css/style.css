@@ -14,7 +14,8 @@ a {
 ********************************************************** */
 .cover h1 {
   text-align: center;
-  color: #222; }
+  color: #222;
+  font-size: 15rem; }
 
 /*********************************************************
  * About
@@ -25,7 +26,9 @@ a {
     color: #BF5700; }
   .about h1 {
     color: #fff;
-    text-align: center; }
+    text-align: center;
+    font-size: 7rem;
+    padding: 3rem 7rem 0 7rem; }
 
 /*********************************************************
  * Projects
@@ -35,11 +38,17 @@ a {
   .projects h1 {
     text-align: center;
     background-color: #d82727;
-    color: #222; }
+    color: #222;
+    padding-top: 3rem;
+    font-size: 3rem; }
   .projects p {
-    text-align: center; }
+    text-align: center;
+    font-size: 1.5rem; }
 .proj {
   text-align: center; }
+  .proj a {
+    height: 13rem;
+    line-height: 13rem; }
   .proj a:hover {
     color: inherit;
     text-transform: uppercase; }
@@ -70,11 +79,15 @@ a {
   text-align: center; }
 .contact h1 {
   position: relative;
-  color: #eee; }
+  color: #eee;
+  padding-top: 3rem;
+  font-size: 3rem; }
 label, option, #emailInput, #message {
-  color: #eee; }
+  color: #eee;
+  font-size: 2rem;}
 #emailInput, #message {
-  color: #222; }
+  color: #222;
+  font-size: 1.5rem; }
 
 /*********************************************************
  * Button
@@ -82,22 +95,29 @@ label, option, #emailInput, #message {
 input[type="submit"].button-primary {
   background-color: #f00;
   border-color: #f00;
-  color: #eee; }
+  color: #eee;
+  box-shadow: 0 3px #b30000;
+  margin: 0;}
 input[type="submit"].button-primary:hover,
 input[type="submit"].button-primary:focus {
   background-color: #f00;
   border-color: #f00;
-  color: #eee; }
+  color: #eee;
+  box-shadow: 0 3px #b30000; }
 
 /*********************************************************
  * Footer
  ********************************************************* */
-footer h1 {
-  position: relative;
-  top: 50%;
-  color: #222; }
-footer strong {
-  color: #f00; }
+footer {
+  height: 3rem; }
+  footer h1 {
+    position: relative;
+    top: 50%;
+    color: #222;
+    margin-left: 3%;
+    font-size: 1.3rem; }
+  footer strong {
+    color: #f00; }
 
 
 /* Larger than mobile
@@ -106,51 +126,45 @@ footer strong {
   /* Cover
    ***************************** */
   .cover h1 {
-    font-size: 7rem; }
+     }
   
   /* About
   ****************************** */
   .about h1 {
-    font-size: 2rem;
-    padding: 3rem 5rem 1rem 5rem; }
+     }
 
   /* Projects
   ****************************** */
   .projects h1 {
-    padding-top: 3rem;
-    font-size: 3rem; }
+     }
   .projects p {
-    font-size: 1.5rem; }
+     }
   .proj a {
-    height: 13rem;
-    line-height: 13rem; }
+     }
 
   /* Contact
   ****************************** */
   .contact h1 {
-    padding-top: 3rem;
-    font-size: 3rem; }
+     }
   label, option, #emailInput, #message {
-    font-size: 2rem; }
+     }
   #emailInput, #message {
-    font-size: 1.5rem; }
+     }
 
   /* Button
   ****************************** */
   input[type="submit"].button-primary {
-    box-shadow: 0 3px #b30000;
-    margin: 0; }
+     }
   input[type="submit"].button-primary:hover,
   input[type="submit"].button-primary:focus {
-    box-shadow: 0 3px #b30000; }
+     }
 
   /* Footer
   ****************************** */
   footer {
-    height: 3rem; }
+     }
   footer h1 {
-    margin-left: 3%;
-    font-size: 1rem; }
+     }
 }
 
 
@@ -160,51 +174,45 @@ footer strong {
   /* Cover
   ***************************** */
   .cover h1 {
-    font-size: 7rem; }
+     }
 
   /* About
   ****************************** */
   .about h1 {
-    font-size: 2rem;
-    padding: 3rem 5rem 1rem 5rem; }
+     }
 
   /* Projects
   ****************************** */
   .projects h1 {
-    padding-top: 3rem;
-    font-size: 3rem; }
+     }
   .projects p {
-    font-size: 1.5rem; }
+     }
   .proj a {
-    height: 13rem;
-    line-height: 13rem; }
+     }
 
   /* Contact
   ****************************** */
   .contact h1 {
-    padding-top: 3rem;
-    font-size: 3rem; }
+     }
   label, option, #emailInput, #message {
-    font-size: 2rem; }
+     }
   #emailInput, #message {
-    font-size: 1.5rem; }
+     }
 
   /* Button
   ****************************** */
   input[type="submit"].button-primary {
-    box-shadow: 0 3px #b30000;
-    margin: 0; }
+     }
   input[type="submit"].button-primary:hover,
   input[type="submit"].button-primary:focus {
-    box-shadow: 0 3px #b30000; }
+     }
 
   /* Footer
   ****************************** */
   footer {
-    height: 3rem; }
+     }
   footer h1 {
-    margin-left: 3%;
-    font-size: 1rem; }
+     }
 }
 
 
@@ -214,51 +222,45 @@ footer strong {
   /* Cover
   ***************************** */
   .cover h1 {
-    font-size: 7rem; }
+     }
 
   /* About
   ****************************** */
   .about h1 {
-    font-size: 2rem;
-    padding: 3rem 5rem 1rem 5rem; }
+     }
 
   /* Projects
   ****************************** */
   .projects h1 {
-    padding-top: 3rem;
-    font-size: 3rem; }
+     }
   .projects p {
-    font-size: 1.5rem; }
+     }
   .proj a {
-    height: 13rem;
-    line-height: 13rem; }
+     }
 
   /* Contact
   ****************************** */
   .contact h1 {
-    padding-top: 3rem;
-    font-size: 3rem; }
+     }
   label, option, #emailInput, #message {
-    font-size: 2rem; }
+     }
   #emailInput, #message {
-    font-size: 1.5rem; }
+     }
 
   /* Button
   ****************************** */
   input[type="submit"].button-primary {
-    box-shadow: 0 3px #b30000;
-    margin: 0; }
+     }
   input[type="submit"].button-primary:hover,
   input[type="submit"].button-primary:focus {
-    box-shadow: 0 3px #b30000; }
+     }
 
   /* Footer
   ****************************** */
   footer {
-    height: 3em; }
+     }
   footer h1 {
-    margin-left: 3%;
-    font-size: 1.3rem; }
+     }
 }
 
 
@@ -268,50 +270,43 @@ footer strong {
   /* Cover
    ***************************** */
   .cover h1 {
-    font-size: 15rem; }
+     }
   
   /* About
    ****************************** */
   .about h1 {
-    font-size: 7rem;
-    padding: 3rem 7rem 0 7rem; }
+     }
 
   /* Projects
   ****************************** */
   .projects h1 {
-    padding-top: 3rem;
-    font-size: 3rem; }
+     }
   .projects p {
-    font-size: 1.5rem; }
+     }
   .proj a {
-    height: 13rem;
-    line-height: 13rem; }
+     }
 
   /* Contact
   ****************************** */
   .contact h1 {
-    padding-top: 3rem;
-    font-size: 3rem; }
+     }
   label, option, #emailInput, #message {
-    font-size: 2rem; }
+     }
   #emailInput, #message {
-    font-size: 1.5rem; }
+     }
 
   /* Button
   ****************************** */
   input[type="submit"].button-primary {
-    box-shadow: 0 3px #b30000;
-    margin: 0; }
+     }
   input[type="submit"].button-primary:hover,
   input[type="submit"].button-primary:focus {
-    box-shadow: 0 3px #b30000; }
+     }
 
   /* Footer
   ****************************** */
   footer {
-    height: 3rem; }
+     }
   footer h1 {
-    margin-left: 3%;
-    font-size: 1.3rem;
-    color: #222; }
+     }
 }
