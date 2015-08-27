@@ -68,7 +68,8 @@ a {
 .blog {
   background-color: #eee;
   color: #f00;
-  text-align: center; }
+  text-align: center;
+  padding-top: 2rem; }
 
 /*********************************************************
  * Contact
