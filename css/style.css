@@ -35,9 +35,9 @@ a {
     color: #222; }
   .projects p {
     text-align: center; }
-  .projects div {
-    text-align: center; }
-  .projects a:hover {
+.proj {
+  text-align: center; }
+  .proj a:hover {
     color: inherit;
     text-transform: uppercase; }
   .proj-1 {
@@ -64,7 +64,7 @@ a {
   /* Cover
    ***************************** */
   .cover h1 {
-    font-size: 3rem; }
+    font-size: 7rem; }
   
   /* About
   ****************************** */
@@ -79,9 +79,7 @@ a {
     font-size: 3rem; }
   .projects p {
     font-size: 1.5rem; }
-  .projects div {
-    height: 13rem; }
-  .projects a {
+  .proj a {
     height: 13rem;
     line-height: 13rem; }
 
@@ -165,9 +163,7 @@ a {
     font-size: 3rem; }
   .projects p {
     font-size: 1.5rem; }
-  .projects div {
-    height: 13rem; }
-  .projects a {
+  .proj a {
     height: 13rem;
     line-height: 13rem; }
 
