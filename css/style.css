@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
+html, footer {
+  background-color: #eee; }
+h1, p {
+  font-family: 'Knewave', cursive; }
+a {
+  text-decoration: none;
+  color: inherit }
+
+/* Cover
+ ********************************************************** */
+.cover { }
+  .cover h1 {
+    text-align: center;
+    font-size: 13vw;
+    color: #222; }
+
+/* About
+********************************************************** */
+.about {
+  background-color: #111; }
+  .about a:hover {
+    color: inherit; }
+  .about h1 {
+    font-size: 5vw;
+    color: #cefc00;
+    text-align: center;
+    padding: 3rem 7rem 1rem 7rem; }
+
+/* Projects
+ ********************************************************** */
+.projects {
+  background-color: #cefc00; }
+  .projects h1 {
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #222; }
+  .projects p {
+    text-align: center;
+    font-size: 1.3rem; }
+  .projects .row {
+    padding-top: 3rem; }
+    .projects .row p {
+      font-size: 2rem;
+      background-color: #eee;
+      color: #222;
+      padding: 3rem;
+      margin: 0 0 0 0;
+      border: solid #cefc00; }
+
+/* Contact
+ ********************************************************** */
+.contact {
+  background-color: #222;
+  text-align: center; }
+  .contact h1 {
+    padding-top: 3rem;
+    position: relative;
+    font-size: 3rem;
+    color: #eee; }
+  label, option, #emailInput, #message {
+    font-size: 2rem;
+    font-family: 'PT Sans', cursive;
+    color: #cefc00; }
+  #emailInput, #message {
+    font-size: 1.5rem;
+    color: #222; }
+
+/* Button
+ ********************************************************** */
+  input[type="submit"].button-primary {
+    font-family: 'Knewave', cursive;
+    background-color: #cefc00;
+    border-color: #cefc00;
+    box-shadow: 0 3px #90b000;
+    margin: 0;
+    color: #222; }
+    input[type="submit"].button-primary:hover,
+    input[type="submit"].button-primary:focus {
+      background-color: #f00;
+      border-color: #f00;
+      box-shadow: 0 3px #b30000;
+      color: #eee; }
+
+/* Footer
+ ********************************************************** */
+footer {
+  height: 3em; }
+  footer h1 {
+    position: relative;
+    top: 50%;
+    margin-left: 3%;
+    font-size: 1.3rem;
+    color: #222; }
+  footer strong {
+    color: #ff000f; }
