@@ -53,6 +53,7 @@ a {
 /* Contact
  ********************************************************** */
 .contact {
+  font-family: 'Knewave', cursive;
   background-color: #222;
   text-align: center; }
   .contact h1 {
@@ -62,8 +63,7 @@ a {
     color: #eee; }
   label, option, #emailInput, #message {
     font-size: 2rem;
-    font-family: 'PT Sans', cursive;
-    color: #cefc00; }
+    color: #eee; }
   #emailInput, #message {
     font-size: 1.5rem;
     color: #222; }
@@ -71,7 +71,6 @@ a {
 /* Button
  ********************************************************** */
   input[type="submit"].button-primary {
-    font-family: 'Knewave', cursive;
     background-color: #cefc00;
     border-color: #cefc00;
     box-shadow: 0 3px #90b000;
