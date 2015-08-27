@@ -8,13 +8,12 @@ a {
   text-decoration: none;
   color: inherit }
 
+
 /* Cover
- ********************************************************** */
-.cover { }
-  .cover h1 {
-    text-align: center;
-    font-size: 13vw;
-    color: #222; }
+********************************************************** */
+.cover h1 {
+  text-align: center;
+  color: #222; }
 
 /* About
 ********************************************************** */
@@ -23,30 +22,21 @@ a {
   .about .ut:hover {
     color: #BF5700; }
   .about h1 {
-    font-size: 5vw;
     color: #fff;
-    text-align: center;
-    padding: 3rem 7rem 1rem 7rem; }
+    text-align: center; }
 
 /* Projects
- ********************************************************** */
+********************************************************** */
 .projects {
   background-color: #d82727; }
   .projects h1 {
-    padding-top: 3rem;
     text-align: center;
-    font-size: 3rem;
     background-color: #d82727;
     color: #222; }
   .projects p {
-    text-align: center;
-    font-size: 1.5rem; }
-  .projects div {
-    height: 13rem;
     text-align: center; }
-  .projects a {
-    height: 13rem;
-    line-height: 13rem; }
+  .projects div {
+    text-align: center; }
   .projects a:hover {
     color: inherit;
     text-transform: uppercase; }
@@ -60,18 +50,51 @@ a {
     background-color: #9d6262;
     color: #eee; }
 
+/* Blog-link
+********************************************************** */
 .blog {
   background-color: #eee;
   color: #f00;
   text-align: center; }
-    
 
-/* Contact
+
+/* Larger than mobile
  ********************************************************** */
-.contact {
-  font-family: 'Knewave', cursive;
-  background-color: #222;
-  text-align: center; }
+@media (min-width: 400px) {
+  /* Cover
+   ***************************** */
+  .cover h1 {
+    font-size: 3rem; }
+  
+  /* About
+  ****************************** */
+  .about h1 {
+    font-size: 2rem;
+    padding: 3rem 5rem 1rem 5rem; }
+
+  /* Projects
+  ****************************** */
+  .projects h1 {
+    padding-top: 3rem;
+    font-size: 3rem; }
+  .projects p {
+    font-size: 1.5rem; }
+  .projects div {
+    height: 13rem; }
+  .projects a {
+    font-size: 1rem;
+    height: 13rem;
+    line-height: 13rem;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+
+  /* Contact
+  ****************************** */
+  .contact {
+    font-family: 'Knewave', cursive;
+    background-color: #222;
+    text-align: center; }
   .contact h1 {
     padding-top: 3rem;
     position: relative;
@@ -84,25 +107,25 @@ a {
     font-size: 1.5rem;
     color: #222; }
 
-/* Button
- ********************************************************** */
+  /* Button
+  ****************************** */
   input[type="submit"].button-primary {
     background-color: #f00;
     border-color: #f00;
     box-shadow: 0 3px #b30000;
     margin: 0;
     color: #eee; }
-    input[type="submit"].button-primary:hover,
-    input[type="submit"].button-primary:focus {
-      background-color: #f00;
-      border-color: #f00;
-      box-shadow: 0 3px #b30000;
-      color: #eee; }
+  input[type="submit"].button-primary:hover,
+  input[type="submit"].button-primary:focus {
+    background-color: #f00;
+    border-color: #f00;
+    box-shadow: 0 3px #b30000;
+    color: #eee; }
 
-/* Footer
- ********************************************************** */
-footer {
-  height: 3em; }
+  /* Footer
+  ****************************** */
+  footer {
+    height: 3em; }
   footer h1 {
     position: relative;
     top: 50%;
@@ -111,3 +134,90 @@ footer {
     color: #222; }
   footer strong {
     color: #f00; }
+}
+
+/* Larger than phablet
+ ********************************************************** */
+@media (min-width: 550px) {
+
+}
+
+/* Larger than tablet
+ ********************************************************** */
+@media (min-width: 750px) {
+
+}
+
+/* Larger than desktop
+ ********************************************************** */
+@media (min-width: 1000px) {
+  /* Cover
+   ***************************** */
+  .cover h1 {
+    font-size: 15rem; }
+  
+  /* About
+   ****************************** */
+  .about h1 {
+    font-size: 7rem;
+    padding: 3rem 7rem 0 7rem; }
+
+  /* Projects
+  ****************************** */
+  .projects h1 {
+    padding-top: 3rem;
+    font-size: 3rem; }
+  .projects p {
+    font-size: 1.5rem; }
+  .projects div {
+    height: 13rem; }
+  .projects a {
+    height: 13rem;
+    line-height: 13rem; }
+
+  /* Contact
+  ****************************** */
+  .contact {
+    font-family: 'Knewave', cursive;
+    background-color: #222;
+    text-align: center; }
+  .contact h1 {
+    padding-top: 3rem;
+    position: relative;
+    font-size: 3rem;
+    color: #eee; }
+  label, option, #emailInput, #message {
+    font-size: 2rem;
+    color: #eee; }
+  #emailInput, #message {
+    font-size: 1.5rem;
+    color: #222; }
+
+  /* Button
+  ****************************** */
+  input[type="submit"].button-primary {
+    background-color: #f00;
+    border-color: #f00;
+    box-shadow: 0 3px #b30000;
+    margin: 0;
+    color: #eee; }
+  input[type="submit"].button-primary:hover,
+  input[type="submit"].button-primary:focus {
+    background-color: #f00;
+    border-color: #f00;
+    box-shadow: 0 3px #b30000;
+    color: #eee; }
+
+  /* Footer
+  ****************************** */
+  footer {
+    height: 3em; }
+  footer h1 {
+    position: relative;
+    top: 50%;
+    margin-left: 3%;
+    font-size: 1.3rem;
+    color: #222; }
+  footer strong {
+    color: #f00; }
+}
