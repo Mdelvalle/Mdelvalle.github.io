@@ -147,10 +147,10 @@ footer strong {
   /* Footer
   ****************************** */
   footer {
-    height: 3em; }
+    height: 3rem; }
   footer h1 {
     margin-left: 3%;
-    font-size: 1.3rem; }
+    font-size: 1rem; }
 }
 
 
@@ -201,10 +201,10 @@ footer strong {
   /* Footer
   ****************************** */
   footer {
-    height: 3em; }
+    height: 3rem; }
   footer h1 {
     margin-left: 3%;
-    font-size: 0.77rem; }
+    font-size: 1rem; }
 }
 
 
@@ -309,7 +309,7 @@ footer strong {
   /* Footer
   ****************************** */
   footer {
-    height: 3em; }
+    height: 3rem; }
   footer h1 {
     margin-left: 3%;
     font-size: 1.3rem;
