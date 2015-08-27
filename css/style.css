@@ -57,6 +57,41 @@ a {
   color: #f00;
   text-align: center; }
 
+/* Contact
+********************************************************** */
+.contact {
+  font-family: 'Knewave', cursive;
+  background-color: #222;
+  text-align: center; }
+.contact h1 {
+  position: relative;
+  color: #eee; }
+label, option, #emailInput, #message {
+  color: #eee; }
+#emailInput, #message {
+  color: #222; }
+
+/* Button
+********************************************************** */
+input[type="submit"].button-primary {
+  background-color: #f00;
+  border-color: #f00;
+  color: #eee; }
+input[type="submit"].button-primary:hover,
+input[type="submit"].button-primary:focus {
+  background-color: #f00;
+  border-color: #f00;
+  color: #eee; }
+
+/* Footer
+********************************************************** */
+footer h1 {
+  position: relative;
+  top: 50%;
+  color: #222; }
+footer strong {
+  color: #f00; }
+
 
 /* Larger than mobile
  ********************************************************** */
@@ -85,61 +120,136 @@ a {
 
   /* Contact
   ****************************** */
-  .contact {
-    font-family: 'Knewave', cursive;
-    background-color: #222;
-    text-align: center; }
   .contact h1 {
     padding-top: 3rem;
-    position: relative;
-    font-size: 3rem;
-    color: #eee; }
+    font-size: 3rem; }
   label, option, #emailInput, #message {
-    font-size: 2rem;
-    color: #eee; }
+    font-size: 2rem; }
   #emailInput, #message {
-    font-size: 1.5rem;
-    color: #222; }
+    font-size: 1.5rem; }
 
   /* Button
   ****************************** */
   input[type="submit"].button-primary {
-    background-color: #f00;
-    border-color: #f00;
     box-shadow: 0 3px #b30000;
-    margin: 0;
-    color: #eee; }
+    margin: 0; }
   input[type="submit"].button-primary:hover,
   input[type="submit"].button-primary:focus {
-    background-color: #f00;
-    border-color: #f00;
-    box-shadow: 0 3px #b30000;
-    color: #eee; }
+    box-shadow: 0 3px #b30000; }
 
   /* Footer
   ****************************** */
   footer {
     height: 3em; }
   footer h1 {
-    position: relative;
-    top: 50%;
     margin-left: 3%;
-    font-size: 1.3rem;
-    color: #222; }
-  footer strong {
-    color: #f00; }
+    font-size: 1.3rem; }
 }
 
 /* Larger than phablet
  ********************************************************** */
 @media (min-width: 550px) {
+  /* Cover
+  ***************************** */
+  .cover h1 {
+    font-size: 7rem; }
 
+  /* About
+  ****************************** */
+  .about h1 {
+    font-size: 2rem;
+    padding: 3rem 5rem 1rem 5rem; }
+
+  /* Projects
+  ****************************** */
+  .projects h1 {
+    padding-top: 3rem;
+    font-size: 3rem; }
+  .projects p {
+    font-size: 1.5rem; }
+  .proj a {
+    height: 13rem;
+    line-height: 13rem; }
+
+  /* Contact
+  ****************************** */
+  .contact h1 {
+    padding-top: 3rem;
+    font-size: 3rem; }
+  label, option, #emailInput, #message {
+    font-size: 2rem; }
+  #emailInput, #message {
+    font-size: 1.5rem; }
+
+  /* Button
+  ****************************** */
+  input[type="submit"].button-primary {
+    box-shadow: 0 3px #b30000;
+    margin: 0; }
+  input[type="submit"].button-primary:hover,
+  input[type="submit"].button-primary:focus {
+    box-shadow: 0 3px #b30000; }
+
+  /* Footer
+  ****************************** */
+  footer {
+    height: 3em; }
+  footer h1 {
+    margin-left: 3%;
+    font-size: 1.3rem; }
 }
 
 /* Larger than tablet
  ********************************************************** */
 @media (min-width: 750px) {
+  /* Cover
+  ***************************** */
+  .cover h1 {
+    font-size: 7rem; }
 
+  /* About
+  ****************************** */
+  .about h1 {
+    font-size: 2rem;
+    padding: 3rem 5rem 1rem 5rem; }
+
+  /* Projects
+  ****************************** */
+  .projects h1 {
+    padding-top: 3rem;
+    font-size: 3rem; }
+  .projects p {
+    font-size: 1.5rem; }
+  .proj a {
+    height: 13rem;
+    line-height: 13rem; }
+
+  /* Contact
+  ****************************** */
+  .contact h1 {
+    padding-top: 3rem;
+    font-size: 3rem; }
+  label, option, #emailInput, #message {
+    font-size: 2rem; }
+  #emailInput, #message {
+    font-size: 1.5rem; }
+
+  /* Button
+  ****************************** */
+  input[type="submit"].button-primary {
+    box-shadow: 0 3px #b30000;
+    margin: 0; }
+  input[type="submit"].button-primary:hover,
+  input[type="submit"].button-primary:focus {
+    box-shadow: 0 3px #b30000; }
+
+  /* Footer
+  ****************************** */
+  footer {
+    height: 3em; }
+  footer h1 {
+    margin-left: 3%;
+    font-size: 1.3rem; }
 }
 
 /* Larger than desktop
@@ -169,47 +279,29 @@ a {
 
   /* Contact
   ****************************** */
-  .contact {
-    font-family: 'Knewave', cursive;
-    background-color: #222;
-    text-align: center; }
   .contact h1 {
     padding-top: 3rem;
-    position: relative;
-    font-size: 3rem;
-    color: #eee; }
+    font-size: 3rem; }
   label, option, #emailInput, #message {
-    font-size: 2rem;
-    color: #eee; }
+    font-size: 2rem; }
   #emailInput, #message {
-    font-size: 1.5rem;
-    color: #222; }
+    font-size: 1.5rem; }
 
   /* Button
   ****************************** */
   input[type="submit"].button-primary {
-    background-color: #f00;
-    border-color: #f00;
     box-shadow: 0 3px #b30000;
-    margin: 0;
-    color: #eee; }
+    margin: 0; }
   input[type="submit"].button-primary:hover,
   input[type="submit"].button-primary:focus {
-    background-color: #f00;
-    border-color: #f00;
-    box-shadow: 0 3px #b30000;
-    color: #eee; }
+    box-shadow: 0 3px #b30000; }
 
   /* Footer
   ****************************** */
   footer {
     height: 3em; }
   footer h1 {
-    position: relative;
-    top: 50%;
     margin-left: 3%;
     font-size: 1.3rem;
     color: #222; }
-  footer strong {
-    color: #f00; }
 }
