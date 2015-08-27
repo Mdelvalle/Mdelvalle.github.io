@@ -2,7 +2,7 @@
 
 html, footer {
   background-color: #eee; }
-h1, p {
+h1, p, div {
   font-family: 'Knewave', cursive; }
 a {
   text-decoration: none;
@@ -20,35 +20,51 @@ a {
 ********************************************************** */
 .about {
   background-color: #111; }
-  .about a:hover {
-    color: inherit; }
+  .about .ut:hover {
+    color: #BF5700; }
   .about h1 {
     font-size: 5vw;
-    color: #cefc00;
+    color: #fff;
     text-align: center;
     padding: 3rem 7rem 1rem 7rem; }
 
 /* Projects
  ********************************************************** */
 .projects {
-  background-color: #cefc00; }
+  background-color: #d82727; }
   .projects h1 {
     padding-top: 3rem;
     text-align: center;
     font-size: 3rem;
+    background-color: #d82727;
     color: #222; }
   .projects p {
     text-align: center;
-    font-size: 1.3rem; }
-  .projects .row {
-    padding-top: 3rem; }
-    .projects .row p {
-      font-size: 2rem;
-      background-color: #eee;
-      color: #222;
-      padding: 3rem;
-      margin: 0 0 0 0;
-      border: solid #cefc00; }
+    font-size: 1.5rem; }
+  .projects div {
+    height: 13rem;
+    text-align: center; }
+  .projects a {
+    height: 13rem;
+    line-height: 13rem; }
+  .projects a:hover {
+    color: inherit;
+    text-transform: uppercase; }
+  .proj-1 {
+    background-color: #c43b3b;
+    color: #eee; }
+  .proj-2 {
+    background-color: #b14e4e;
+    color: #222; }
+  .proj-3 {
+    background-color: #9d6262;
+    color: #eee; }
+
+.blog {
+  background-color: #eee;
+  color: #f00;
+  text-align: center; }
+    
 
 /* Contact
  ********************************************************** */
@@ -71,11 +87,11 @@ a {
 /* Button
  ********************************************************** */
   input[type="submit"].button-primary {
-    background-color: #cefc00;
-    border-color: #cefc00;
-    box-shadow: 0 3px #90b000;
+    background-color: #f00;
+    border-color: #f00;
+    box-shadow: 0 3px #b30000;
     margin: 0;
-    color: #222; }
+    color: #eee; }
     input[type="submit"].button-primary:hover,
     input[type="submit"].button-primary:focus {
       background-color: #f00;
@@ -94,4 +110,4 @@ footer {
     font-size: 1.3rem;
     color: #222; }
   footer strong {
-    color: #ff000f; }
+    color: #f00; }
