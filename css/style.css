@@ -22,13 +22,16 @@ a {
  ********************************************************* */
 .about {
   background-color: #111; }
-  .about .ut:hover {
-    color: #BF5700; }
+  .about a {
+    color: #bf5700; }
+  .about a:hover {
+    color: #ab4e00; }
   .about h1 {
-    color: #fff;
+    color: #eee;
     text-align: center;
     font-size: 3rem;
-    padding: 3rem 1.5rem; }
+    margin: 0;
+    padding: 3rem 1rem; }
 
 /*********************************************************
  * Projects
@@ -97,14 +100,14 @@ input[type="submit"].button-primary {
   background-color: #f00;
   border-color: #f00;
   color: #eee;
-  box-shadow: 0 3px #b30000;
-  margin: 0;}
+  box-shadow: 0 3px #b20000;
+  margin: 0; }
 input[type="submit"].button-primary:hover,
 input[type="submit"].button-primary:focus {
-  background-color: #f00;
-  border-color: #f00;
+  background-color: #b20000;
+  border-color: #b20000;
   color: #eee;
-  box-shadow: 0 3px #b30000; }
+  box-shadow: 0 3px #660000; }
 
 /*********************************************************
  * Footer
@@ -271,12 +274,12 @@ footer {
   /* Cover
    ***************************** */
   .cover h1 {
-     }
+    font-size: 15rem; }
   
   /* About
    ****************************** */
   .about h1 {
-     }
+    font-size: 7rem; }
 
   /* Projects
   ****************************** */
@@ -284,8 +287,10 @@ footer {
      }
   .projects p {
      }
-  .proj a {
-     }
+  .proj {
+    font-size: 3rem; }
+    .proj a {
+       }
 
   /* Contact
   ****************************** */
