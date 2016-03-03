@@ -1,0 +1,12 @@
+body {
+  background-color: #222;
+  color: #fee; }
+
+p {
+  font-family: 'Knewave', cursive;
+  font-size: 7rem;
+  text-align: center;
+  margin: auto;
+  padding: 5% 0; }
+  a {
+    color: #1EAEDB; }

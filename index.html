@@ -15,7 +15,6 @@
 
   <!-- FONT
     -------------------------------------------------------------------- -->
-  <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Knewave' rel='stylesheet' type='text/css'>
 
   <!-- CSS
@@ -40,77 +39,115 @@
   <!-- About
     -------------------------------------------------------------------- -->
   <div class="container about">
-    <h1>RECENT <a class="ut" href="http://www.utexas.edu/">UT</a> COMPUTER SCIENCE GRAD INTERESTED IN DATA VISUALIZATION, DISTRIBUTED SYSTEMS, WEB, AND ANYTHING MUSIC.
-      </h1>
+    <p>RECENT <a class="ut" href="http://www.utexas.edu/">UT</a> COMPUTER SCIENCE GRAD INTERESTED IN DATA VISUALIZATION, DISTRIBUTED SYSTEMS, WEB, AND ANYTHING MUSIC.</p>
   </div>
 
   <!-- Using
     -------------------------------------------------------------------- -->
   <div class="container using">
-      <h1>Currently playing with</h1>
+      <h2>CURRENTLY PLAYING WITH</h2>
 
-      <a href="https://github.com/elixir-lang/elixir-lang.github.com/">
-        <img src="https://github.com/elixir-lang/elixir-lang.github.com/raw/master/images/logo/logo.png">
-      </a>
+      <p>
+        <a href="https://nodejs.org/en/about/resources/" target="_blank">
+          node.js
+        </a>
+      </p>
 
-      <a href="https://github.com/phoenixframework/phoenix">
-          <img src="https://raw.githubusercontent.com/phoenixframework/phoenix/master/priv/static/phoenix.png">
-      </a>
+      <p>
+        <a href="https://facebook.github.io/react/" target="_blank">
+          react.js
+        </a>
+      </p>
+      
+      <p>
+        <a href="https://www.python.org/" target="_blank">
+          python
+        </a>
+      </p>
+       
+      <p>
+        <a href="http://elixir-lang.org/" target="_blank">
+          elixir
+        </a>
+      </p>
 
-      <a href="https://nodejs.org/en/about/resources/">
-        <img src="https://nodejs.org/static/images/logos/nodejs.png">
-      </a>
+      <p>
+        <a href="http://www.phoenixframework.org/" target="_blank">
+          phoenix
+        </a>
+      </p>
+  </div>
 
-      <!-- 
-      <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
-          <img src="https://developer.mozilla.org/@api/deki/files/6020/=HTML5_Logo_128.png">
-      </a>
-
-      <a href="">
-          <img src="">
-      </a>
--- -->
   <!-- Projects
     -------------------------------------------------------------------- -->
   <div class="container projects">
-    <h1>PORTFOLIO</h1>
-    <p>some of the projects I've worked on</p>
+    <h2>PORTFOLIO</h2>
+    <p id="aside">some of the projects I've worked on</p>
+
+    <div class="container proj">
+      <a href="https://purporize.herokuapp.com" target="_blank">purporize</a>
+      <p class="proj-desc">chop and screw your songs.</p>
+    </div>
+
+    <div class="container proj">
+      <a href="https://mdelvalle.github.io/secloop" target="_blank">secloop</a>
+      <p class="proj-desc">loop sections of soundcloud songs.</p>
+    </div>
+
+    <div class="container proj">
+      <a href="http://mdelvalle.github.io/procedural/" target="_blank">procedural</a>
+      <p class="proj-desc">procedurally created 2d ascii terrain.</p>
+    </div>
+
+    <div class="container proj">
+      <a href="https://github.com/Mdelvalle/CS345-Programming-Languages" target="_blank">js interpreter</a>
+      <p class="proj-desc">javascript interpreted by haskell.</p>
+    </div>
+
+    <div class="container proj">
+      <a href="https://github.com/Mdelvalle/CS378-Computer-Vision" target="_blank">panorama</a>
+      <p class="proj-desc">merge multiple images into a panorama.</p>
+    </div>
+
+    <div class="container proj">
+      <a href="https://github.com/Mdelvalle/cs361-projs/tree/master/proj4" target="_blank">aes</a>
+      <p class="proj-desc">block cypher encryption algorithm.</p>
+    </div>
   </div>
 
-  <div class="container proj proj-1">
-      <a href="https://github.com/Mdelvalle/chop-n-screw">chop-n-screw</a>
-  </div>
-
-  <div class="container proj proj-2">
-    <a href="https://github.com/Mdelvalle/secloop">secloop</a>
-  </div>
-
-  <div class="container proj proj-3">
-    <a href="https://github.com/Mdelvalle/rekt">rekt</a>
-  </div>
+  <!-- Resume
+    -------------------------------------------------------------------- -->
+    <div class="container resume">
+      <a href="/miguel_delvalle_resume.pdf" target="_blank">RÉSUMÉ</a>
+    </div
 
   <!-- Blog
     -------------------------------------------------------------------- -->
+<!--    
   <div class="container blog">
     <h1>IF YOU'D LIKE TO READ MY RAMBLES, CLICK HERE.</h1>
   </div>
+-- -->
 
   <!-- Contact
     -------------------------------------------------------------------- -->
   <div class="container contact">
-    <h1>Contact Me</h1>
+    <h2>CONTACT</h2>
     
     <form action="//formspree.io/migdelv@gmail.com" method="POST">
-      <input type="email" placeholder="Your email..." name="_replyto"/>
-      <input type="text" placeholder="Type your message..." name="name" id="message"/>
-      <input class="button-primary" type="submit" value="Send"/>
+      <input type="text" placeholder="your Name..." name="name">
+      <input type="email" placeholder="your e-mail..." name="_replyto"/>
+<!--  <input type="text" placeholder="Message..." name="name" id="message"/> -->
+      <textarea name="message" rows="50" cols="25" placeholder="your message..."></textarea>
+      <input type="hidden" name="_next" value="/thanks.html"/>
+      <input class="button-primary" type="submit" value="send"/>
     </form>
   </div>
 
   <!-- Footer
     -------------------------------------------------------------------- -->
   <footer>
-    <h1>Made with <strong>&lt3</strong> by Miguel Del Valle</h1>
+    <p>made with <strong>&lt3</strong> by miguel del valle</p>
   </footer>
 <!-- End Document
   ------------------------------------------------------------------------ -->
